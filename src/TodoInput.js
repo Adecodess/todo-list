@@ -1,6 +1,6 @@
 import React from "react";
 
-const TodoInput = ({ newItem, handleSubmit, setName, isEditing, editItem }) => {
+const TodoInput = ({ newItem, handleSubmit, setName }) => {
   return (
     <div>
       <form className="todo-form" onSubmit={handleSubmit}>
