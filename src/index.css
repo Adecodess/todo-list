@@ -214,7 +214,7 @@ h3 {
   height: 200px;
   /* display: inline-block; */
   /* justify-content: center; */
-  margin: 25em auto;
+  margin: 16em auto;
   overflow: hidden;
   background: #ffffff;
 }
@@ -240,7 +240,7 @@ h3 {
   }
 
   .todo {
-    width: 15rem;
+    width: 17rem;
     /* padding: 1rem; */
     border-radius: 2px;
     border: 2px solid rgb(18, 125, 133);
@@ -248,11 +248,22 @@ h3 {
     /* flex: 1 0 auto; */
     color: black;
   }
+  .title {
+    padding-top: 5px;
+    margin-left: 3em;
+    color: #463f3a;
+    letter-spacing: 2px;
+    transition: all 0.3s linear;
+    font-size: 1em;
+  }
+  .todo-icon {
+    margin-right: 3em;
+  }
 
   .loadingio-spinner-wedges-uz1stnwa7v9 {
     width: 200px;
     height: 200px;
 
-    margin: 20em auto;
+    margin: 15em auto;
   }
 }
